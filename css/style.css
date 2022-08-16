@@ -53,10 +53,10 @@ p {
 }
 .left-side {
   background-color: #003147;
-  padding: 40px;
   color: #fff;
 }
-.right-side {
+.right-side,
+.left-side {
   padding: 40px;
 }
 .header-info {
@@ -115,9 +115,7 @@ p {
 .languages .bar-1 {
   width: 100%;
 }
-.languages .bar-2 {
-  width: 80%;
-}
+.languages .bar-2,
 .languages .bar-3 {
   width: 80%;
 }
@@ -149,6 +147,7 @@ p {
 /* experiences */
 .experiences .info h3 {
   color: var(--main-bg-color);
+  padding-bottom: 15px;
 }
 .experience {
   display: flex;
@@ -160,9 +159,6 @@ p {
 }
 .experience .info {
   width: 75%;
-}
-.experience .info h3 {
-  padding-bottom: 15px;
 }
 /* skills */
 .skill .progress {
@@ -176,26 +172,16 @@ p {
   font-size: small;
   font-weight: 900;
 }
-.skill-bar-1 {
-  width: 90%;
-}
-.skill-bar-2 {
-  width: 90%;
-}
-.skill-bar-3 {
-  width: 80%;
-}
-.skill-bar-4 {
-  width: 80%;
-}
-.skill-bar-5 {
-  width: 90%;
-}
-.skill-bar-6 {
-  width: 90%;
-}
+.skill-bar-1,
+.skill-bar-2,
+.skill-bar-5,
+.skill-bar-6,
 .skill-bar-7 {
   width: 90%;
+}
+.skill-bar-3,
+.skill-bar-4 {
+  width: 80%;
 }
 .skill {
   display: flex;
@@ -269,9 +255,7 @@ p {
   }
 }
 @media only screen and (max-width: 640px) {
-  h2 {
-    text-align: center;
-  }
+  h2,
   .interests,
   .skills {
     text-align: center;
